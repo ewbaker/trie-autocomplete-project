@@ -23,21 +23,18 @@ This project implements a **Trie (Prefix Tree)** data structure from scratch in 
    ```bash
    cd trie_autocomplete_project
 
-  
-
     Run the application:
     code Bash
 
-        
     python src/app.py
 
       
 
-Usage Guide
+### Usage Guide
 
 When the application starts, it automatically loads a dictionary of words from data/words.txt.
 
-Available Commands:
+#### Available Commands:
 
     Check Word: Verifies if a specific word exists in the dictionary.
 
@@ -45,7 +42,7 @@ Available Commands:
 
     Add Word: Insert a new word into the runtime memory.
 
-Example Interaction:
+#### Example Interaction:
 code Text
 
     
