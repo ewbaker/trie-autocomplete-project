@@ -1,0 +1,16 @@
+apple
+application
+apply
+apricot
+banana
+band
+bandana
+cat
+caterpillar
+category
+dog
+dodge
+elephant
+zebra
+zoom
+zone
