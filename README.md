@@ -1,7 +1,3 @@
-Save this as README.md. You must fill in your name and screenshots.
-code Markdown
-
-    
 # Trie Autocomplete System 🌲
 
 ## Project Overview
