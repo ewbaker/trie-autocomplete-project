@@ -8,11 +8,13 @@ code Markdown
 This project implements a **Trie (Prefix Tree)** data structure from scratch in Python and utilizes it to power a CLI-based Autocomplete and Spell Checking application. The application demonstrates the efficiency of Tries for string-based operations compared to standard lists.
 
 ## Team Members
+
 *   **Evyn Baker** - Solo Developer
 
 ## Installation & Setup
 
 ### Prerequisites
+
 *   Python 3.6 or higher
 
 ### Setup
@@ -57,23 +59,26 @@ Found 3 matches in 0.012ms:
 
   
 
-Screenshots
+### Screenshots
 
 ![alt text](screenshots/demo1.png)
 
 
-(Description: The app loading data and showing the main menu)
+(The app loads the data and shows the main menu)
 
 ![alt text](screenshots/demo2.png)
 
 
-(Description: Demonstrating the autocomplete suggestion feature)
+(This demonstrates the autocomplete suggestion feature)
 
 ![alt text](screenshots/demo3.png)
 
 
-(Description: Successfully searching for a word)
-Tree Implementation Details
+(This successfully searches for a word)
+
+## Design Documentation
+
+### Tree Implementation Details
 
 The Trie class uses a node-based architecture (TrieNode).
 
@@ -87,7 +92,7 @@ The Trie class uses a node-based architecture (TrieNode).
 
         get_suggestions: O(P + N) - proportional to prefix length plus total characters in results.
 
-Evolution of the Interface
+### Evolution of the Interface
 
 During the development process, the interface evolved significantly:
 
@@ -99,13 +104,13 @@ During the development process, the interface evolved significantly:
 
     Refinement: In the original get_suggestions crashed if the prefix didn't exist. I added a check to return an empty list immediately if the prefix path broke.
 
-Challenges & Solutions
+### Challenges & Solutions
 
     Challenges: Recursion in get_suggestions was tricky to visualize but eventually I figured it out.
 
     Solution: I drew out the tree on paper for the word "cat" and "car" to understand how the DFS should reconstruct the string by passing current_word + char down the stack (similar to our homework assigngment).
 
-Future Enhancements
+### Future Enhancements
 
     Add a delete method (requires careful handling of nodes with other children).
 
